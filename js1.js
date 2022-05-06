@@ -14,3 +14,22 @@ function tong() {
     document.getElementById('diem').innerHTML = tongd;
 
 }
+// doi c sang f
+function chuyendoi() {
+    var c = Number(document.getElementById('doc').value) ;
+    var cF = (9*c)/5 + 32     ;
+    document.getElementById('dof').innerHTML = cF ;
+}
+
+// tinh dien tich hinh tron
+function dienT() {
+    var r = Number(document.getElementById('bankinh').value) ;
+    var s = 3.14*r*r ;
+    document.getElementById('hienthidt').innerHTML = s ;
+}
+// tinh chu vi hinh tron
+function chuvi() {
+    var r = Number(document.getElementById('bankinh').value) ;
+    var chuvi = 3.14*r*2 ;
+    document.getElementById('hienthidt').innerHTML = chuvi ;
+}
