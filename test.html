@@ -5,23 +5,54 @@
     <title>Title</title>
 </head>
 <body>
- <input id="firtNumber"><br>
- <input type="text" id="secondNumber"><br>
- <span id="tong"></span>
- <br><br>
-
- <button onclick="result()">Tính Tổng</button>
 
 <script>
-  function result() {
-      let a = document.getElementById('firtNumber').value ;
-      let b = document.getElementById('secondNumber').value;
-      let soA_value = parseInt(a)  ;
-      let soB_value = parseInt(b) ;
-      let tong = soA_value + soB_value ;
-      document.getElementById('tong').innerHTML = 'Tổng của 2 số là: ' + tong ;
-  }
 
+ /* switch (new Date().getDay()) {
+      case 0:
+          day = "Chủ Nhật";
+          break;
+      case 1:
+          day = "Thứ hai";
+          break;
+      case 2:
+          day = "Thứ ba";
+          break;
+      case 3:
+          day = "Thứ tư";
+          break;
+      case 4:
+          day = "Thứ năm";
+          break;
+      case 5:
+          day = "Thứ sáu";
+          break;
+      case 6:
+          day = "Thứ bảy";
+          break;
+  }
+  document.write(day);*/
+
+ /*// kiểm tra năm nhuận
+ let year =  parseInt(prompt('nhập năm kiểm tra'))
+ if(year%4 == 0){
+     if (year%100 == 0){
+         if (year%400 == 0){
+             document.write(year + ' là năm nhuận')
+         }
+         else {
+             document.write(year + ' không phải là năm nhuận')
+         }
+     }
+     else {
+         document.write(year + ' là năm nhuận')
+     }
+ }
+ else {
+     document.write(year + ' không phải là năm nhuận')
+ }*/
+
+ 
 </script>
 
 </body>
